@@ -1,13 +1,13 @@
 package com.lamdas.function;
 
-public class Empleado {
+public class EmpleadoFunc {
 
 	private String nombre;
 	private Double salario;
 	
-	public Empleado() {}
+	public EmpleadoFunc() {}
 	
-	public Empleado(String nombre, Double salario) {
+	public EmpleadoFunc(String nombre, Double salario) {
 		super();
 		this.nombre = nombre;
 		this.salario = salario;

@@ -7,17 +7,17 @@ public class EjemBiFunction_3 {
 
 	public static void main(String[] args)
 	{
-		 List<Empleado> lsEmpleados = Arrays.asList(
-				  new Empleado("Javier0",250.33),
-				  new Empleado("Javier1",251.33),
-				  new Empleado("Javier2",252.33),
-				  new Empleado("Javier3",253.33),
-				  new Empleado("Javier4",254.33),
-				  new Empleado("Javier5",255.33),
-				  new Empleado("Javier6",256.33),
-				  new Empleado("Javier7",257.33),
-				  new Empleado("Javier8",258.33),
-				  new Empleado("Javier9",259.33)
+		 List<EmpleadoFunc> lsEmpleados = Arrays.asList(
+				  new EmpleadoFunc("Javier0",250.33),
+				  new EmpleadoFunc("Javier1",251.33),
+				  new EmpleadoFunc("Javier2",252.33),
+				  new EmpleadoFunc("Javier3",253.33),
+				  new EmpleadoFunc("Javier4",254.33),
+				  new EmpleadoFunc("Javier5",255.33),
+				  new EmpleadoFunc("Javier6",256.33),
+				  new EmpleadoFunc("Javier7",257.33),
+				  new EmpleadoFunc("Javier8",258.33),
+				  new EmpleadoFunc("Javier9",259.33)
 				 );
 		 
 		 CalcBiF_2 calc = new CalcBiF_2();
