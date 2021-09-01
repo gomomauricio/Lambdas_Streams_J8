@@ -2,8 +2,22 @@ package com.lamdas.streams;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Stream;
 
 public class TestStreams_1 {
+	/*OPERACIONES INTERMEDIAS
+	 * 
+	 * FILTER -> Produce un stream que contiene solo elementos que satisfacen una condicion.
+	 * 
+	 * DISTINCT -> Produce un stream que contiene solo elementos unicos.
+	 * 
+	 * LIMIT -> Produce un stream con el numero especificado de elementos.
+	 * 
+	 * MAP -> Produce un stream en el que cada elemento del stream original esta asociado a un nuevo valor.
+	 * 
+	 * SORTED -> Produce un stream en el que los elementos estan ordenados.
+	 * 
+	 */
 
 	public static void main(String[] args) {
 
@@ -30,6 +44,12 @@ public class TestStreams_1 {
 						.map( n -> n * n )
 						.reduce( 0, Integer::sum);
 		System.out.println(" La suma de los cuadrados es: " + suma);
+		
+		
+		System.out.println(" ----- ------- ------- -------");
+	    Stream<Integer> nSt = numeros.stream();
+	    
+	     
 		
 
 	}
