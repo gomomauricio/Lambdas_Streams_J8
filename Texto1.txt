@@ -1,0 +1,11 @@
+//crear usuario seguridad mysql
+USE tecgurus_simple;
+CREATE TABLE 'login' (
+  'idUsuario' int(11) NOT NULL AUTO_INCREMENT,
+  'nombreUsuario' varchar(30) COLLATE utf8_spanish_ci NOT NULL,
+  'password' varchar(30) COLLATE utf8_spanish_ci DEFAULT NULL,
+  'roles' varchar(30) COLLATE utf8_spanish_ci DEFAULT NULL,
+  PRIMARY KEY (`idUsuario`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+SELECT * FROM tecgurus_simple.login;
+
